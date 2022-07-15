@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+
+    font-size: 1.2rem;
+
+}
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+
+
+
+header {
+    width: 100%;
+    height: 10%;
+}
+header .rrss {
+    display: flex;
+    height: 40%;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    padding-right: 28px;
+    background-color: #48cfad;
+}
+header .rrss a {
+    display: inline-block;
+    padding: 8px;
+}
+header .rrss a img {
+    width: 16px;
+}
+.header--section {
+
+    margin: auto;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header--section img {
+    width: 160px;
+    margin-left: 36px;
+
+}
+.header--section a {
+    margin-right: 28px;
+    color: black;
+
+    font-weight: 400;
+    text-decoration-style:wavy;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+}
+
+main .main--principal {
+
+    background-color: #e6e9ed;
+}
+.main-principal--container{
+    display: flex;
+    padding: 0 80px 30px;
+    width: 100%;
+}
+
+.main--principal--left {
+    width: 60%;
+    height: 100%;
+}
+.main--principal--left h3 {
+    margin: 8px 0;
+}
+.main--principal--left figure img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.main--principal--right {
+    width: 40%;
+    align-self: center;
+}
+
+.main--principal--right h2 {
+    margin-bottom: 16px;
+}
+.main--principal--right a {
+    margin-top: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 6px 8px;
+    border: 1px solid #48cfad;
+    font-size: 1rem;
+}
+
+.main--last-blogspots {
+    width: 75%;
+
+
+}
+.main--last-blogspots h3 {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #cdd2da;
+}
+
+.last-blogspots--list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+
+}
+.last-blogspots--list .blogpost {
+    box-shadow: 2px 2px 6px #48cfad;
+    border-bottom-right-radius: 8px;
+
+
+
+}
+.last-blogspots--list .blogpost p:nth-child(2) {
+    margin: 10px 0 20px;
+}
+
+.last-blogspots--list .blogpost p:nth-child(3) {
+    margin-bottom: 20px;
+} 
+
+.last-blogspots--list .blogpost a {
+    display: inline-block;
+    width: 70px;
+    text-decoration: none;
+    color: black;
+    padding: 6px 8px;
+    border: 1px solid #48cfad;
+    font-size: 1rem;
+}
+
+.last-blogspots--list .blogpost img{
+    width: 100%;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    border-top: 20px solid #48cfad;
+
+}
+footer p {
+    padding: 20px 0;
+    color: white;
+    
+}
